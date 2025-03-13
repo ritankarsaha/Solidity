@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_numbers",
+						"type": "uint256[]"
+					}
+				],
+				"name": "addNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/loops/for_looping.sol": "NumberAdder"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/loops/for_looping.sol": {
+			"keccak256": "0xece68dc10d15dfab00f1888a921bda5382067856b655b6ee755f45ee8ae491dc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://06048bd406ee17d77b146dfc96c121ce9608da3d687514b1c19151299954c8ed",
+				"dweb:/ipfs/QmPp8wC17PUr85VbDbTCPEUJ2PgmMrVTXwQVW4R8idDXws"
+			]
+		}
+	},
+	"version": 1
+}

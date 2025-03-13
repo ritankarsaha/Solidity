@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/remix-tests/sum.sol": "Calculator"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/remix-tests/sum.sol": {
+			"keccak256": "0x8a09b51b54f9d70f9960e1025dfa83633f462dfe8f1608914c773978dc0bc9d0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35d0433389c93490c3c9da6a734606c58b5984071b3046758c156939446c2ad4",
+				"dweb:/ipfs/QmahJbzdPS1QuSUa7t6ufd37gHVg73QHJB11FrmRQXGCg9"
+			]
+		}
+	},
+	"version": 1
+}
