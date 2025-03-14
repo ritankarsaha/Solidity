@@ -21,7 +21,7 @@ contract ENS{
         return numbers[index];
     }
 
-
+    
      mapping(address => string) private users;
 
     constructor(){
