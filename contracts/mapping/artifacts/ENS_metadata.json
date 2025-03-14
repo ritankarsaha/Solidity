@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "userName",
+						"type": "string"
+					}
+				],
+				"name": "signUp",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mapping/ens.sol": "ENS"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mapping/ens.sol": {
+			"keccak256": "0x23c1d94e8528d1e2ebbf4e9904d70f9476624a2a58a63a3c8a21517a2ad7f93e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://894135b94d8ca2a3343eeeea6a4bfa04c2ae53cb8cbb0e67ad3afe3b01255b82",
+				"dweb:/ipfs/QmexLKmUpCrwmirS2wmNwfggsfnovmvoDUuqkTymUondtB"
+			]
+		}
+	},
+	"version": 1
+}
