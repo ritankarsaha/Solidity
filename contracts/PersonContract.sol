@@ -10,6 +10,7 @@ contract PersonContract{
     string name;
     uint age;
     address addr;
+    
 }
 
 
